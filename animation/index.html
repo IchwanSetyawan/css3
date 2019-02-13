@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animation</title>
+	<style>
+	.kotak{
+		width: 200px;
+		height: 200px;
+		background-color: salmon;
+		animation: animasiKotak 2S ease infinite;
+
+	} 
+	
+	
+	@keyframes animasiKotak{
+		0%{
+			width: 200px;
+
+		}
+		
+		50%{
+			width: 200px;
+			background-color: orange;
+			transition-left: 500px;
+		}
+
+		100%{
+			width: 500px;
+			height: 500px;
+			background-color: red;
+			bottom: 5000px;
+
+		}
+	}
+
+
+
+	</style>
+
+
+</head>
+<body>
+	
+<div class="kotak"></div>
+
+</body>
+</html>

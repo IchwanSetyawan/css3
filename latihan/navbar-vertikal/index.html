@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>navbar-vertical</title>
+
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			font-family: arial;
+			font-size: 23px;
+		}
+
+		li>a{
+			text-decoration: none;
+			color: black;
+		}
+		li{
+			list-style-type: none;
+			background-color: orange;
+			width: 150px;
+			padding: 10px 13px;
+			border-bottom: 1px solid black;		
+			text-align: center;
+
+		}
+		li:hover{
+			background-color: yellow;
+		}
+
+		ul li ul{
+			display: none;
+			float: left;
+			
+		}
+
+		ul li:hover ul{
+			display: block;
+			
+		}
+		nav{
+			float: left;
+			margin-right: 10px;
+
+		}
+
+		
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="">link1</a></li>
+			<li><a href="">link2</a></li>
+			<li><a href="">link3</a></li>
+			<li><a href="">link4</a>
+				<ul>
+					<li><a href="">sub1</a></li>
+					<li><a href="">sub2</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nesciunt, nostrum nisi nobis rem ratione ea animi ad vel esse iure obcaecati labore, libero in.</p>
+	
+</body>
+</html>
